@@ -1,11 +1,13 @@
 ---
 layout: page
-title: About the Theme
+title: About us
 tags: [about, Jekyll, theme, JBlog]
 date: 2017-11-21
 ---
 
 <center><b>Monocucos</b>.</center>
+
+<center>![Logo](assets/img/logoBig.png)</center>
 
 ## About
 
