@@ -5,9 +5,7 @@ tags: [about, Jekyll, theme, JBlog]
 date: 2017-11-21
 ---
 
-<center><b>Monocucos</b>.</center>
-
-<center>![Logo](assets/img/logoBig.png)</center>
+![Logo](assets/img/logoBig.png)
 
 ## About
 
