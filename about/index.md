@@ -2,21 +2,25 @@
 layout: page
 title: About the Theme
 tags: [about, Jekyll, theme, JBlog]
-date: 2016-03-21
+date: 2017-11-21
 ---
 
-![jekyll Image](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/02/1424055625jekyll.png)
-{: .image-pull-right}
-
-<center><b>JBlog</b> is a simple jekyll theme.</center>
+<center><b>Monocucos</b>.</center>
 
 ## About
 
-I have used this theme in my own php and ruby blogs. And there are some shortcomings. If something looks extremely ugly and you can't resist to fix it, just send me a PR. I will be grateful.
+We are a children's project created to implement values though fun and imagination. Our messages focus on tolerance and social acceptance; we want to become the starting point of a new way of thinking, communicating the invaluable impact that being accepting can heavily influence the construction of a better future society.
 
+We see acceptance through individuality, diversity, our differences and tolerance.
 
-If you like this theme or using it, please give a **star** for motivation.
+We do not see a world in which one is to be black or white.
 
-You want to **use it?**      
+Our language is that of colours and what they tell us:
+- Difference, complement, emotions, tones, signs and languages.
 
-[Install JBlog](https://github.com/alperenbozkurt/JBlog){: .btn .btn-info}
+We, Monocucos are acceptance in colours.
+
+An acceptance which allows us to see new combinations for expressing worlds filled with 
+
+We are looking to  spread our message to as many children as possible. We are more than sure that our philosophy can become an important tool to help the formation of a child since a young age, and while growing, he or she can become a true advocate for change in society.
+
