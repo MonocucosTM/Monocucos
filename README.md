@@ -1,3 +1,7 @@
+# Monocucos home page
+
+This repo will contain the home page for the project Monocucos.
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/MonocucosTM/Monocucos/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
