@@ -5,7 +5,7 @@ tags: [about, Jekyll, theme, JBlog]
 date: 2017-11-21
 ---
 
-![Logo](assets/img/logoBig.png)
+![Logo](../assets/img/logoBig.png)
 
 ## About
 
