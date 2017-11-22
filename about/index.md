@@ -8,7 +8,7 @@ date: 2017-11-21
 ![Logo](../assets/img/logoBig.png)
 
 
-
+<p align="center">
 We are a children's project created to implement values though fun and imagination. Our messages focus on tolerance and social acceptance; we want to become the starting point of a new way of thinking, communicating the invaluable impact that being accepting can heavily influence the construction of a better future society.
 
 We see acceptance through individuality, diversity, our differences and tolerance.
