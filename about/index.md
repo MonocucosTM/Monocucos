@@ -23,5 +23,6 @@ Monocucos are "Acceptance in Colours".
 An acceptance which allows us to see new combinations for expressing worlds filled with nuances.
 <p align="center">
 We are looking to  spread our message to as many children as possible. We are more than sure that our philosophy can become an important tool to help the formation of a child since a young age, and while growing, he or she can become a true advocate for change in society.
+  
 
 ![Logo](../assets/img/SOLFOX.png)
