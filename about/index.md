@@ -18,7 +18,7 @@ We do not see a world in which one is to be black or white.
 Our language is that of colours and what they tell us:
 Difference, complement, emotions, tones, signs and languages.
 <p align="center">
-__Monocucos are "Acceptance in Colours".__
+Monocucos are __"Acceptance in Colours".__
 <p align="center">
 An acceptance which allows us to see new combinations for expressing worlds filled with nuances.
 <p align="center">
