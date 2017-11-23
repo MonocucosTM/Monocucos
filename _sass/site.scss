@@ -76,7 +76,7 @@ body {
 
 .aciklamalar {
   font-family: $title-font;
-  margin-left: 50;
+  margin-left: 100px;
   float: left;
   font-size: 20px;
   margin-top: 25px;
@@ -395,7 +395,7 @@ ul.menuAna {
     padding-right: 15px;
     padding-bottom: 5px;
     padding-top: 5px;
-    color: $background-color;
+    color: $monologo;
     float: left;
     font-family: $menu-font;
     text-decoration: none;
@@ -580,7 +580,7 @@ ul.menuAna {
   margin-bottom: 10px;
   font-family: $menu-font;
 	a {
-		color: $background-color;
+		color: $monologo;
 		transition-property: color;
 		transition-duration: .5s;
 		transition-delay: 0s;
@@ -697,21 +697,21 @@ ul.menuAna {
 		margin: 5px;
 		margin-top: 30px;
 		padding: 5px;
-		color: $main-color;
-	  text-shadow: 1px 1px 5px #000;
+		color: $monologo;
+	  text-shadow: 1px 1px 5px $monoshadow;
 		transition-property: text-shadow;
 	  transition-duration: 0.2s;
 	  transition-delay: 0s;
 		&:hover{
 			color: #FFF;
-		  text-shadow: 1px 1px 10px #000;
+		  text-shadow: 1px 1px 10px $monoshadow;
 		}
 	}
 }
 .sosyal {
 	.fa {
 		margin-top: 10px !important;
-		color: $background-color !important;
+		color: $monologo !important;
 	  text-shadow: 1px 1px 1px rgba(81, 81, 81, 0.3) !important;
 		&:hover{
 		  text-shadow: 1px 1px 4px rgba(81, 81, 81, 1) !important;
@@ -750,7 +750,7 @@ ul.menu {
     a {
       padding: 10px;
       border-radius: 6px;
-      color: $background-color;
+      color: $monologo;
       float: left;
       text-decoration: none;
       font-family: $menu-font;
@@ -758,8 +758,8 @@ ul.menu {
       &:hover {
         padding: 10px;
         border-radius: 3px;
-        background-color: $background-color;
-        text-shadow: 1px 1px 5px #000;
+        background-color: $monologo;
+        text-shadow: 1px 1px 5px $monoshadow;
         color: $main-color;
         box-shadow: inset 0px 0px 10px 2px rgba(81, 81, 81, .6);
         float: left;
@@ -823,16 +823,16 @@ ul.menu {
 	    a {
 	      padding: 10px;
 	      border-radius: 6px;
-	      color: $background-color;
-				width: 140px;
+	      color: $monologo;
+          width: 140px;
 	      text-decoration: none;
 	      font-family: $menu-font;
 
 	      &:hover {
 	        padding: 10px;
 	        border-radius: 3px;
-	        background-color: $background-color;
-	        text-shadow: 1px 1px 5px #000;
+	        background-color: $monologo;
+	        text-shadow: 1px 1px 5px $monoshadow;
 	        color: $main-color;
 	        box-shadow: inset 0px 0px 10px 2px rgba(81, 81, 81, .6);
 	        text-decoration: none;
