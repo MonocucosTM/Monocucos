@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Markdown Syntax"
+title:  "BOOKS"
 date:   2016-03-15
 project: true
 image: "../assets/img/selfie2.png"
