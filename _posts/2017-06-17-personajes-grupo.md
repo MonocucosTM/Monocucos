@@ -20,7 +20,7 @@ tag:
 # "Jeden świat dla wszystkich gdzie wszyscy jesteśmy jednym światem".
 
 
-Together we have the **Power** to change the world.
+### Together we have the **Power** to change the world.
 
 ![Logo](../assets/img/14.png)
 
