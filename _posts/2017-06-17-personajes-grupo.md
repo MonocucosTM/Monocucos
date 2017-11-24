@@ -13,9 +13,8 @@ tag:
 - jekyll
 ---
 
-##### Un mundo para todos donde todos somos uno
+## Un mundo para todos donde todos somos uno
 
-esta puede ser la prueba para descripciones de cada versión.
 
 # Heading 1
 
