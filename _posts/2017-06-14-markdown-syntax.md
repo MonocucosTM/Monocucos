@@ -15,7 +15,7 @@ tag:
 
 ## Collections
 
-Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
+esta puede ser la prueba para descripciones de cada versión.
 
 # Heading 1
 
