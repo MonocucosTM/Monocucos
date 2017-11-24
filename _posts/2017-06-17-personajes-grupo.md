@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Social Impact"
+title:  "Characters"
 date:   2016-03-16
 project: true
 image: "../assets/img/SocialimpactWEBBAJA100.png"
@@ -35,8 +35,6 @@ Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nulla
 
 ![Logo](../assets/img/SOLFOX.png)
 
-![jekyll Image](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/02/1424055625jekyll.png)
-{: .image-pull-right}
 
 *This is emphasized*. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That?s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
 
