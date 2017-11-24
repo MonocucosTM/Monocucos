@@ -12,7 +12,7 @@ tag:
 - test
 - jekyll
 ---
-
+<p align="center">
 # "A world for all where we are all one".
 
 # "Un mundo para todos donde todos somos uno".
