@@ -33,7 +33,7 @@ esta puede ser la prueba para descripciones de cada versión.
 
 Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
 
-!(../assets/img/SOLFOX.png)
+![Logo](../assets/img/SOLFOX.png)
 
 ![jekyll Image](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2015/02/1424055625jekyll.png)
 {: .image-pull-right}
