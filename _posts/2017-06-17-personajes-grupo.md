@@ -13,11 +13,12 @@ tag:
 - jekyll
 ---
 
+# A world for all where we are all one.
 # Un mundo para todos donde todos somos uno.
+# Jeden świat dla.
 
 
-
-Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
+Together we have the **Power** to change the world.
 
 ![Logo](../assets/img/14.png)
 
@@ -48,5 +49,5 @@ Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nulla
 
 ## Notices
 
-**Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
+**Follow us!** Facebook:Monocucos, Instagram:@losmonocucos, Twitter:@losmonocucos
 {: .notice}
