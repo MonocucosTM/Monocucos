@@ -13,10 +13,13 @@ tag:
 - jekyll
 ---
 
+<p align="center">
 # "A world for all where we are all one".
 _____
+<p align="center">
 # "Un mundo para todos donde todos somos uno".
 _____
+<p align="center">
 # "Jeden świat dla wszystkich gdzie wszyscy jesteśmy jednym światem".
 
 
