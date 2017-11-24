@@ -13,11 +13,11 @@ tag:
 - jekyll
 ---
 
-# A world for all where we are all one.
+# "A world for all where we are all one".
 _____
-# Un mundo para todos donde todos somos uno.
+# "Un mundo para todos donde todos somos uno".
 _____
-# Jeden świat dla wszystkich gdzie wszyscy jesteśmy jednym światem.
+# "Jeden świat dla wszystkich gdzie wszyscy jesteśmy jednym światem".
 
 
 Together we have the **Power** to change the world.
