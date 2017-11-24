@@ -14,8 +14,10 @@ tag:
 ---
 
 # A world for all where we are all one.
+_____
 # Un mundo para todos donde todos somos uno.
-# Jeden świat dla.
+_____
+# Jeden świat dla wszystkich gdzie wszyscy jesteśmy jednym światem.
 
 
 Together we have the **Power** to change the world.
