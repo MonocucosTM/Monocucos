@@ -13,22 +13,9 @@ tag:
 - jekyll
 ---
 
-## Un mundo para todos donde todos somos uno
+# Un mundo para todos donde todos somos uno.
 
 
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
-
-### Body text
 
 Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
 
@@ -43,13 +30,7 @@ Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nulla
 
 ## List Types
 
-### Ordered Lists
 
-1. Item one
-   1. sub item one
-   2. sub item two
-   3. sub item three
-2. Item two
 
 ### Unordered Lists
 
