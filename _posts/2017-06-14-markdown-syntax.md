@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "BOOKS"
+title:  "Social Impact"
 date:   2016-03-15
 project: true
 image: "../assets/img/BOOKSWEBBAJA.png"
