@@ -3,7 +3,7 @@ layout: post
 title:  "Characters"
 date:   2016-03-16
 project: true
-image: "../assets/img/SocialimpactWEBBAJA100.png"
+image: "../assets/img/personajes.png"
 excerpt: "Do more, change the world."
 tag:
 - markdown
