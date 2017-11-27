@@ -37,7 +37,7 @@ Mezcla, complemento, emociones, tonos, signos, lenguajes
 
  
 <p align="center">
-**LOS MONOCUCOS son ACEPTACIÓN EN COLORES**
+LOS MONOCUCOS son ACEPTACIÓN EN COLORES
 
  
 <p align="center">
