@@ -49,7 +49,7 @@ tag:
 
 
 
-<div markdown="0"><a href="#" class="btn">BACK TO TOP</a></div>
+<div markdown="0"><a href="#" class="btn btn-success">BACK TO TOP</a></div>
 
 ## Notices
 
