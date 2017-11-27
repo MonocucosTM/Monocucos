@@ -9,6 +9,8 @@ date: 2017-11-21
 
 
 ![Logo](../assets/img/banderaesp.png)
+<p align="center">
+We are a children's
 ![Logo](../assets/img/banderaesp.png)
 
 <p align="center">
