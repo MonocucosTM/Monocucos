@@ -48,7 +48,7 @@ Mezcla, complemento, emociones, tonos, signos, lenguajes
 <p align="center">
 LOS MONOCUCOS son ACEPTACIÓN EN COLORES
 
- 
+ ![Logo](../assets/img/banderaesp.png)
 <p align="center">
 Una aceptación que permite ver nuevas combinaciones para expresar mundos llenos de matices
 
