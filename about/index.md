@@ -56,5 +56,5 @@ Buscamos llevar nuestro mensaje  a la mayor cantidad de niños posibles. Estamos
   <div markdown="0"><a href="#" class="btn btn-success">BACK TO TOP</a></div>
   
   
-  ![Logo](../assets/img/baneraesp.png)
+  ![Logo](../assets/img/banderaesp.png)
   
