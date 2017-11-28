@@ -8,7 +8,7 @@ date: 2017-11-21
 ![Logo](../assets/img/logoBig.png)
 
 
-ENG
+![ENG](../assets/img/banderaesp.png)
 
 <p align="center">
 We are a children's project created to implement values though fun and imagination. Our messages focus on tolerance and social acceptance; we want to become the starting point of a new way of thinking, communicating the invaluable impact that being accepting can heavily influence the construction of a better future society.
@@ -26,8 +26,7 @@ An acceptance which allows us to see new combinations for expressing worlds fill
 <p align="center">
 We are looking to  spread our message to as many children as possible. We are more than sure that our philosophy can become an important tool to help the formation of a child since a young age, and while growing, he or she can become a true advocate for change in society.
  
- 
------------
+![ESP](../assets/img/banderaesp.png) 
 
 
 <p align="center">
