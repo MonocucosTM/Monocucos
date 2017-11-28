@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Characters"
-date:   2016-03-16
+date:   2017-06-17
 project: true
 image: "../assets/img/personajes.png"
 excerpt: "Do more, change the world."
