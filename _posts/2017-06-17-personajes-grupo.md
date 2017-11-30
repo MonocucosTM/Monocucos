@@ -21,8 +21,7 @@ tag:
 # "Jeden świat dla wszystkich gdzie wszyscy jesteśmy jednym światem".
 
 
-**Together we have the Power to change the world.**
-  
+**Together we have the Power to change the world.**  
 MONOCUCOS is an amazing family of 14 that will teach you how to have fun because they all are different. We talk about values, like **inclusion, diversity, tolerance, individuality, acceptance, and love**.
 
 ![Logo](../assets/img/14.png)
