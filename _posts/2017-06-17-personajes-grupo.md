@@ -13,14 +13,14 @@ tag:
 - jekyll
 ---
 
-<p align="center">
+
 # "A world for all where we are all one".
-<p align="center">
+
 # "Un mundo para todos donde todos somos uno".
-<p align="center"> 
+ 
 # "Jeden świat dla wszystkich gdzie wszyscy jesteśmy jednym światem".
 
-<p align="center">
+
 **Together we have the Power to change the world.**
   
 MONOCUCOS is an amazing family of 14 that will teach you how to have fun because they all are different. We talk about values, like **inclusion, diversity, tolerance, individuality, acceptance, and love**.
