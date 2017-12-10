@@ -7,6 +7,7 @@ date: 2017-11-21
 
 ![Logo](../assets/img/logoBig.png)
 
+![ENG](../assets/img/SOLFOX.png)
 
 ![ENG](../assets/img/britania.png)
 
