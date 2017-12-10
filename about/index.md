@@ -7,8 +7,6 @@ date: 2017-11-21
 
 ![Logo](../assets/img/logoBig.png)
 
-![ENG](../assets/img/SOLFOX.png)
-
 ![ENG](../assets/img/britania.png)
 
 <p align="center">
@@ -66,7 +64,7 @@ Una aceptación que permite ver nuevas combinaciones para expresar mundos llenos
 Buscamos llevar nuestro mensaje  a la mayor cantidad de niños posibles. Estamos seguros que nuestra filosofía puede convertirse en una herramienta para ayudar a la formación de niños desde temprana edad., ya que éste al crecer puede ser un verdadero generador de un cambio en la sociedad.
 </p>  
 
-  
+  ![ENG](../assets/img/SOLFOX.png)
   
 <div markdown="0"><a href="#" class="btn btn-success">BACK TO TOP</a></div>
   
