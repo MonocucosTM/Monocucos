@@ -1,3 +1,31 @@
+---
+layout: post
+title:  "Authors"
+date:   2015-06-17
+project: true
+image: "../assets/img/personajes.png"
+excerpt: "Do more, change the world."
+tag:
+- markdown
+- syntax
+- sample
+- test
+- jekyll
+---
+
+
+# "A world for all where we are all one".
+
+# "Un mundo para todos donde todos somos uno".
+ 
+# "Jeden świat dla wszystkich gdzie wszyscy jesteśmy jednym światem".
+
+
+**Together we have the Power to change the world.**  
+MONOCUCOS is an amazing family of 14 that will teach you how to have fun because they all are different. We talk about values, like **inclusion, diversity, tolerance, individuality, acceptance, and love**.
+
+![Logo](../assets/img/14.png)
+
 ALEJANDRA MONTERRUBIO
 
 Ilustrator, grafik, artystka meksykańska mieszkająca w Kanadzie. Jej wielokulturowa postać żyjąca w mocno zdywersyfikowanym społeczeństwie Kanady była źródłem powstania Monocucos.
@@ -5,3 +33,13 @@ Ilustrator, grafik, artystka meksykańska mieszkająca w Kanadzie. Jej wielokult
 JOHN NÚÑEZ
 
 Publicysta kolumbijski mieszkający w Polsce, miłośnik pisania. Jego profil zawodowy ukształtował się przez tworzenie tekstów, nadzór nad kreacją i opracowywaniem strategii komunikacji w agencjach reklamowych Ameryki Łacińskiej i Europy.
+
+
+
+<div markdown="0"><a href="#" class="btn btn-success">BACK TO TOP</a></div>
+
+## Notices
+
+**Follow us!** Facebook:Monocucos, Instagram:@losmonocucos, Twitter:@losmonocucos
+{: .notice}
+
