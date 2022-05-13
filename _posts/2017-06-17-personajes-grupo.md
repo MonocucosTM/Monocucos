@@ -22,7 +22,9 @@ tag:
 
 
 **Together we have the Power to change the world.**  
-MONOCUCOS is an amazing family of 14 that will teach you how to have fun because they all are different. We talk about values, like **inclusion, diversity, tolerance, individuality, acceptance, and love**.
+MONOCUCOS is an amazing family of 14 that will teach you how to have fun because they all are different. We talk about values, like **inclusion, diversity, tolerance, individuality, acceptance, and love**; in order to be part of a new thought of coexistence that builds a better society in the future.
+The nature of our project is fully adaptive, that is, MONOCUCOS will take the form that society requires, to transmit its message to children regardless of their socio-economic status or geographic location.
+
 
 ![Logo](../assets/img/14.png)
 
