@@ -41,10 +41,9 @@ The nature of our project is fully adaptive, that is, MONOCUCOS will take the fo
 for coming to our school to share your beautiful art
 and such an important message with all our students.
 It was wonderful to meet them.”
- 
-Himale Wijesundera
-Beryl Ford Public School. Brampton, Canada
-</p>
+ </p>
+**Himale Wijesundera**
+**Beryl Ford Public School. Brampton, Canada**
 
 <p align="center">
 “I congratulate the Monocucos for their revolutionary approach
