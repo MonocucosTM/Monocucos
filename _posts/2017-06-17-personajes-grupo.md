@@ -36,7 +36,7 @@ The nature of our project is fully adaptive, that is, MONOCUCOS will take the fo
 
 
 
-
+center([
 “A huge thank you from all of us.
 for coming to our school to share your beautiful art
 and such an important message with all our students.
@@ -67,6 +67,7 @@ literature and art, the theme of diversity as an opportunity
 for the enrichment and transcendence of our society.”
 Edilma Nunez Pineda
 Lic. Child Pedagogy
+]);
 
 <div markdown="0"><a href="#" class="btn btn-success">BACK TO TOP</a></div>
 
