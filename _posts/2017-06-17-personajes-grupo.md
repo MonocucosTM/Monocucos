@@ -43,8 +43,8 @@ and such an important message with all our students.
 It was wonderful to meet them.”
 </p>
 <p align="center">
-**Himale Wijesundera**
-*Beryl Ford Public School. Brampton, Canada*
+-Himale Wijesundera-
+Beryl Ford Public School. Brampton, Canada
 </p>
 
 
@@ -54,8 +54,9 @@ to children's literature. As a teacher I feel confident
 by reading these books to my students knowing that they will learn
 the importance of tolerance, inclusion and all
 those wonderful things that make us feel beautiful and different.”
-
- Andrew McLaughlin
+</p>
+<p align="center">
+-Andrew McLaughlin-
 St. Mary Catholic Secondary School, Canada
 </p>
 
