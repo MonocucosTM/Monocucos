@@ -36,14 +36,14 @@ The nature of our project is fully adaptive, that is, MONOCUCOS will take the fo
 
 
 
-center([
-'“A huge thank you from all of us.',
-'for coming to our school to share your beautiful art',
-'and such an important message with all our students.',
-'It was wonderful to meet them.”',
-'Himale Wijesundera',
-'Beryl Ford Public School. Brampton, Canada',
-]);
+<p align="center">
+“A huge thank you from all of us.
+for coming to our school to share your beautiful art
+and such an important message with all our students.
+It was wonderful to meet them.”
+Himale Wijesundera
+Beryl Ford Public School. Brampton, Canada
+</p>
 
 center([
 “I congratulate the Monocucos for their revolutionary approach
