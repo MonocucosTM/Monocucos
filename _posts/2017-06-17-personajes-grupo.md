@@ -66,8 +66,9 @@ literary proposal goes beyond its own limits working the values and
 aspects of childhood reality that make our children believe in themselves and
 all that they can do for each other. It is a pleasure to have you with us
 as part of our pedagogical proposal.”
-
- Ibis Mendez
+</p>
+<p align="center">
+-Ibis Mendez-
 Main Karowa Campus
 International Trilingual School of Warsaw
 </p>
@@ -77,7 +78,9 @@ International Trilingual School of Warsaw
 his great contribution to Education for Peace, by approaching from the
 literature and art, the theme of diversity as an opportunity
 for the enrichment and transcendence of our society.”
-Edilma Nunez Pineda
+</p>
+<p align="center">
+-Edilma Nunez Pineda-
 Lic. Child Pedagogy
 </p>
 
