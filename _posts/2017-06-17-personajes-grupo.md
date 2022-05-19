@@ -36,20 +36,8 @@ The nature of our project is fully adaptive, that is, MONOCUCOS will take the fo
 
 ### Our Family
 
-* Gaggo
-* Alí
-* Huevito
-* Luly
-* El General
-* Cheloza
-* Rulo
-* Royo
-* Issa
-* Úli
-* Gügo
-* Pakik
-* Fredo
-* Rowen
+* Gaggo * Alí * Huevito * Luly * El General * Cheloza * Rulo
+* * Royo * Issa * Úli * Gügo * Pakik * Fredo * Rowen
 
 
 
