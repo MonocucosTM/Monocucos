@@ -25,6 +25,7 @@ tag:
 MONOCUCOS is an amazing family of 14 that will teach you how to have fun because they all are different. We talk about values, like **inclusion, diversity, tolerance, individuality, acceptance, and love**; in order to be part of a new thought of coexistence that builds a better society in the future.
 The nature of our project is fully adaptive, that is, MONOCUCOS will take the form that society requires, to transmit its message to children regardless of their socio-economic status or geographic location.
 
+### Our Family
 
 ![Logo](../assets/img/14.png)
 
@@ -34,10 +35,7 @@ The nature of our project is fully adaptive, that is, MONOCUCOS will take the fo
 
 
 
-### Our Family
 
-* Gaggo * Alí * Huevito * Luly * El General * Cheloza * Rulo
-* * Royo * Issa * Úli * Gügo * Pakik * Fredo * Rowen
 
 “A huge thank you from all of us.
 for coming to our school to share your beautiful art
