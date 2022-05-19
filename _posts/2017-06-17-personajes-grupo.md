@@ -43,7 +43,8 @@ and such an important message with all our students.
 It was wonderful to meet them.”
  </p>
 **Himale Wijesundera**
-**Beryl Ford Public School. Brampton, Canada**
+*Beryl Ford Public School. Brampton, Canada*
+
 
 <p align="center">
 “I congratulate the Monocucos for their revolutionary approach
