@@ -48,6 +48,7 @@ Beryl Ford Public School. Brampton, Canada
 </p>
 
 
+
 <p align="center">
 “I congratulate the Monocucos for their revolutionary approach
 to children's literature. As a teacher I feel confident
@@ -59,6 +60,8 @@ those wonderful things that make us feel beautiful and different.”
 -Andrew McLaughlin-
 St. Mary Catholic Secondary School, Canada
 </p>
+
+
 
 <p align="center">
 “We will always be grateful to Monocucos because in addition to being a great
@@ -72,6 +75,8 @@ as part of our pedagogical proposal.”
 Main Karowa Campus
 International Trilingual School of Warsaw
 </p>
+
+
 
 <p align="center">
 “As a Colombian teacher, I thank the Monocucos project for
