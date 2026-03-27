@@ -4,7 +4,7 @@ bio:            'Just a simple Jekyll theme'
 description:    "Social Impact Project for Kids."
 picture:        'assets/img/selfiereal.png'
 locale:         en_US
-url:             https://monocucostm.github.io baserful: /Monocucos/
+url:            "https://monocucostm.github.io"baserful: "/Monocucos/
 
 
 # Jekyll
