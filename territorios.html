@@ -9,7 +9,7 @@
   margin-top:70px;
   display:grid;
   grid-template-columns:1fr .42fr;
-  gap:70px;
+  gap:35px;
   align-items:center;
 }
 
@@ -33,8 +33,22 @@
   border-left:1px solid rgba(255,250,243,.35);
   padding-left:34px;
 }
+  .embajador-tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:18px;
+}
 
-.embajador-signature span{
+.embajador-tags span{
+  border:1px solid rgba(38,52,58,.45);
+  border-radius:30px;
+  padding:8px 13px;
+  font-size:11px;
+  letter-spacing:.4px;
+}
+
+.embajador-signature > span{
   display:block;
   font-size:11px;
   letter-spacing:3px;
@@ -86,7 +100,11 @@ html{scroll-behavior:smooth}img{max-width:100%;height:auto}button,a{touch-action
   <div class="embajador-signature">
     <span>PEQUEÑO GRAN</span>
     <strong>EMBAJADOR</strong>
-    <p>Colombia · identidad · cultura</p>
+    <div class="embajador-tags">
+  <span>Colombia</span>
+  <span>Identidad</span>
+  <span>Cultura</span>
+</div>
   </div>
 </div>
 
