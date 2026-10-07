@@ -4,7 +4,44 @@
 <style>
 html{scroll-behavior:smooth}img{max-width:100%;height:auto}button,a{touch-action:manipulation}@media(max-width:760px){body{overflow-x:hidden}}
 </style>
-</head><body><header><a class="brand" href="index.html"><img src="https://raw.githubusercontent.com/MonocucosTM/Monococos/master/assets/img/logoBig.png" alt="MONOCUCOS"></a><nav><a href="index.html#universo">MONOCUCOS</a><a href="historias.html">HISTORIAS</a><a href="index.html#personajes">PERSONAJES</a><a href="index.html#aprender">APRENDER MONOCUQUEANDO</a><a href="index.html#impacto">IMPACTO</a><a href="index.html#nosotros">SOBRE NOSOTROS</a><a href="index.html#contacto">CONTACTO</a></nav><a class="navbtn" href="index.html#universo">ENTRAR</a></header>
+</head><body><header>
+  <a class="brand" href="index.html">
+    <img src="assets/img/MONOCUCOS-logo-header.png" alt="MONOCUCOS">
+  </a>
+
+  <nav>
+    <a href="historias.html">HISTORIAS</a>
+    <a href="personajes.html">PERSONAJES</a>
+    <a href="aprender.html">MONOCUQUEAR</a>
+    <a href="impacto.html">IMPACTO</a>
+    <a href="sobre-nosotros.html">SOBRE NOSOTROS</a>
+    <a href="contacto.html">CONTACTO</a>
+  </nav>
+
+  <div class="languages">
+    <span class="active">ES</span>
+    <span>EN</span>
+    <span>PL</span>
+  </div>
+
+  <a class="navbtn" href="index.html#universo">ENTRAR</a>
+
+  <div class="mobile-menu-icon" aria-label="Menú">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <div class="mobile-menu">
+    <a href="historias.html">HISTORIAS</a>
+    <a href="personajes.html">PERSONAJES</a>
+    <a href="aprender.html">MONOCUQUEAR</a>
+    <a href="impacto.html">IMPACTO</a>
+    <a href="sobre-nosotros.html">SOBRE NOSOTROS</a>
+    <a href="contacto.html">CONTACTO</a>
+    <a class="mobile-enter" href="index.html#universo">ENTRAR</a>
+  </div>
+</header>
 <main><section class="story-hero"><div class="story-hero-inner"><p class="eyebrow">EL UNIVERSO MONOCUCOS</p><h1>Historias que<br><em>ayudan a crecer.</em></h1><p>Cada historia abre una conversación. Historias para descubrir, sentir, preguntar y aprender.</p></div></section>
 <section class="stories-intro"><p class="eyebrow">LAS HISTORIAS</p><h2>Una historia, muchas formas de aprender.</h2><p>Los personajes y sus historias pueden convertirse en herramientas para conversar, jugar, imaginar y trabajar emociones y valores.</p></section>
 <section class="all-stories"><div class="story-grid">
@@ -19,4 +56,16 @@ html{scroll-behavior:smooth}img{max-width:100%;height:auto}button,a{touch-action
 <article class="story-card"><div class="story-cover cover-9"><span class="story-number">09 · HISTORIA MONOCUCOS</span></div><div class="story-body"><small>COMUNIDAD · ORIGEN · GENERACIONES</small><h3>Las Crónicas del Huevito</h3><p>La historia del comienzo de MONOCUCOS y de cómo una comunidad ayuda a crecer a la próxima generación.</p><div class="story-values"><span>Comunidad</span><span>Origen</span><span>Generaciones</span></div></div></article>
 </div></section>
 <section class="story-learning"><div class="story-learning-grid"><div><p class="eyebrow">MÁS ALLÁ DEL LIBRO</p><h2>Las historias no terminan cuando cerramos el libro.</h2></div><div><p>Los personajes y sus historias pueden convertirse en herramientas para conversar, jugar, imaginar y trabajar emociones y valores.</p><p class="story-quote">Una historia puede abrir una puerta. La conversación puede abrir un mundo.</p><a class="btn dark" href="index.html#aprender">DESCUBRE LAS EXPERIENCIAS MONOCUCOS</a></div></div></section>
-<section class="story-cta"><p class="eyebrow">MONOCUCOS</p><h2>¿Qué historia quieres descubrir hoy?</h2><p>Explora el universo de personajes, historias y experiencias.</p><a class="btn light" href="historias.html">EXPLORAR HISTORIAS</a></section></main><footer><strong>MONOCUCOS™</strong><span>Un mundo para todos, donde todos somos uno.</span><span>© 2026</span></footer></body></html>
+<section class="story-cta"><p class="eyebrow">MONOCUCOS</p><h2>¿Qué historia quieres descubrir hoy?</h2><p>Explora el universo de personajes, historias y experiencias.</p><a class="btn light" href="historias.html">EXPLORAR HISTORIAS</a></section></main><footer><strong>MONOCUCOS™</strong><span>Un mundo para todos, donde todos somos uno.</span><span>© 2026</span></footer>
+
+<script>
+const menuIcon = document.querySelector('.mobile-menu-icon');
+const mobileMenu = document.querySelector('.mobile-menu');
+
+menuIcon.addEventListener('click', function () {
+  const isOpen = mobileMenu.style.display === 'flex';
+  mobileMenu.style.display = isOpen ? 'none' : 'flex';
+});
+</script>
+
+</body></html>
