@@ -249,6 +249,48 @@ header nav a:hover{
   header .navbtn{display:none}
   .mobile-menu-icon{display:flex}
 }
+/* Árbol protagonista de PERSONAJES */
+.hero {
+  background: #faf7f2;
+  min-height: 690px;
+  padding: 85px 7vw 390px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 440px;
+  background:
+    linear-gradient(to bottom,
+      #faf7f2 0%,
+      transparent 18%,
+      transparent 76%,
+      #faf7f2 100%),
+    url("assets/img/arbol-monocucos-personajes.webp")
+      center center / contain no-repeat;
+  pointer-events: none;
+}
+
+.hero .thread {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .hero {
+    min-height: 570px;
+    padding: 75px 6vw 290px;
+  }
+
+  .hero::after {
+    height: 320px;
+  }
+}
 </style>
 </head><body>{% include header.html %}
 
