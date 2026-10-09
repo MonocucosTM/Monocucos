@@ -149,6 +149,30 @@ header nav a:hover{
   width:100%;
   height:auto;
   object-fit:contain;
+  -webkit-mask-image:
+    linear-gradient(to right,
+      transparent 0%,
+      black 10%,
+      black 90%,
+      transparent 100%),
+    linear-gradient(to bottom,
+      transparent 0%,
+      black 14%,
+      black 86%,
+      transparent 100%);
+  -webkit-mask-composite:source-in;
+  mask-image:
+    linear-gradient(to right,
+      transparent 0%,
+      black 10%,
+      black 90%,
+      transparent 100%),
+    linear-gradient(to bottom,
+      transparent 0%,
+      black 14%,
+      black 86%,
+      transparent 100%);
+  mask-composite:intersect;
 }
 
 @media(max-width:720px){
