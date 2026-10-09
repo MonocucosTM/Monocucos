@@ -44,7 +44,18 @@ mask-composite:intersect;
 .cover-5::before,
 .cover-5::after{
   display:none;
-}</style>
+}
+/* Igualar las nuevas portadas a las tres primeras */
+.story-cover:has(img){
+  background:#faf7f2;
+  align-items:center;
+}
+
+.story-cover:has(img)::before,
+.story-cover:has(img)::after{
+  display:none;
+}
+</style>
 <style>
 html{scroll-behavior:smooth}img{max-width:100%;height:auto}button,a{touch-action:manipulation}@media(max-width:760px){body{overflow-x:hidden}}
 </style>
