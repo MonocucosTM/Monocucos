@@ -135,9 +135,34 @@ header nav a:hover{
   header .navbtn{display:none}
   .mobile-menu-icon{display:flex}
 }
+  /* Ilustración panorámica Aprender Monocuqueando */
+.ilustracion-aprender{
+  width:100%;
+  max-width:1500px;
+  margin:0 auto;
+  padding:0 3vw;
+  box-sizing:border-box;
+}
+
+.ilustracion-aprender img{
+  display:block;
+  width:100%;
+  height:auto;
+  object-fit:contain;
+}
+
+@media(max-width:720px){
+  .ilustracion-aprender{
+    padding:0 2vw;
+ }
+}
 </style>
 </head>
-<body>{% include header.html %}<main><section class="hero"><div><div class="eyebrow">El aprendizaje también puede sentirse</div><h1>APRENDER MONOCUQUEANDO</h1><p>Hay cosas que no se enseñan solamente. Se viven.</p></div><div class="thread" aria-hidden="true"></div></section><section class="section"><h2>Aprender también es descubrirnos.</h2><p class="intro">MONOCUCOS crea historias y experiencias que ayudan a los niños a explorar aquello que sienten, comprender a los demás y descubrir nuevas maneras de relacionarse con el mundo.</p><div class="cards"><article class="card"><div class="num">01</div><h3>APRENDER A ACEPTAR</h3><p>Las diferencias nos hacen únicos.</p><div class="dot"></div></article><article class="card"><div class="num">02</div><h3>APRENDER A ESCUCHAR</h3><p>Cada persona tiene una historia.</p><div class="dot"></div></article><article class="card"><div class="num">03</div><h3>APRENDER A SENTIR</h3><p>Todas las emociones tienen algo que decirnos.</p><div class="dot"></div></article><article class="card"><div class="num">04</div><h3>APRENDER A ACOMPAÑAR</h3><p>Nadie debería sentirse solo.</p><div class="dot"></div></article><article class="card"><div class="num">05</div><h3>APRENDER A CRECER</h3><p>Cada día podemos descubrir algo nuevo de nosotros mismos.</p><div class="dot"></div></article></div></section><section class="closing"><div class="line"></div><h2>Aprender juntos cambia la manera de mirar el mundo.</h2><p>Porque cuando aprendemos a aceptar, escuchar, sentir, acompañar y crecer, también aprendemos a vivir juntos.</p></section></main><footer><strong>MONOCUCOS™</strong><span>Un mundo para todos, donde todos somos uno.</span><span>© 2026</span></footer>
+<body>{% include header.html %}<main><section class="hero"><div><div class="eyebrow">El aprendizaje también puede sentirse</div><h1>APRENDER MONOCUQUEANDO</h1><p>Hay cosas que no se enseñan solamente. Se viven.</p></div><div class="thread" aria-hidden="true"></div></section>
+<section class="ilustracion-aprender">
+  <img src="{{ '/assets/img/aprender-monocuqueando-escuela.png' | relative_url }}" alt="Ali y los pequeños Monocucos saliendo de la escuela en un mundo de hilos">
+</section>
+<section class="section"><h2>Aprender también es descubrirnos.</h2><p class="intro">MONOCUCOS crea historias y experiencias que ayudan a los niños a explorar aquello que sienten, comprender a los demás y descubrir nuevas maneras de relacionarse con el mundo.</p><div class="cards"><article class="card"><div class="num">01</div><h3>APRENDER A ACEPTAR</h3><p>Las diferencias nos hacen únicos.</p><div class="dot"></div></article><article class="card"><div class="num">02</div><h3>APRENDER A ESCUCHAR</h3><p>Cada persona tiene una historia.</p><div class="dot"></div></article><article class="card"><div class="num">03</div><h3>APRENDER A SENTIR</h3><p>Todas las emociones tienen algo que decirnos.</p><div class="dot"></div></article><article class="card"><div class="num">04</div><h3>APRENDER A ACOMPAÑAR</h3><p>Nadie debería sentirse solo.</p><div class="dot"></div></article><article class="card"><div class="num">05</div><h3>APRENDER A CRECER</h3><p>Cada día podemos descubrir algo nuevo de nosotros mismos.</p><div class="dot"></div></article></div></section><section class="closing"><div class="line"></div><h2>Aprender juntos cambia la manera de mirar el mundo.</h2><p>Porque cuando aprendemos a aceptar, escuchar, sentir, acompañar y crecer, también aprendemos a vivir juntos.</p></section></main><footer><strong>MONOCUCOS™</strong><span>Un mundo para todos, donde todos somos uno.</span><span>© 2026</span></footer>
 <script>
 const menuIcon = document.querySelector('.mobile-menu-icon');
 const mobileMenu = document.querySelector('.mobile-menu');
