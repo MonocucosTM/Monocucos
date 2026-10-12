@@ -5,7 +5,7 @@ layout: null
 <style>
 html{scroll-behavior:smooth}img{max-width:100%;height:auto}button,a{touch-action:manipulation}@media(max-width:760px){body{overflow-x:hidden}}
 </style>
-<style>.preview-note{padding:9px 16px;text-align:center;background:#fff4d9;color:#654c28;font:600 12px 'DM Sans',sans-serif;letter-spacing:.04em}.languages a{color:inherit;text-decoration:none}</style></head><body><div class="preview-note">ENGLISH PREVIEW · NOT PUBLISHED · OTHER PAGES REMAIN IN SPANISH</div><header>
+<style>.preview-note{padding:9px 16px;text-align:center;background:#fff4d9;color:#654c28;font:600 12px 'DM Sans',sans-serif;letter-spacing:.04em}.languages{display:flex;align-items:center;gap:9px}.languages a{color:inherit;text-decoration:none;cursor:pointer}.languages a:hover{text-decoration:underline}.languages .language-disabled{opacity:.45;cursor:default}</style></head><body><div class="preview-note">ENGLISH PREVIEW · NOT PUBLISHED · OTHER PAGES REMAIN IN SPANISH</div><header>
   <a class="brand" href="home-en-preview.html">
     <img src="assets/img/MONOCUCOS-logo-header.png" alt="MONOCUCOS">
   </a>
@@ -20,9 +20,9 @@ html{scroll-behavior:smooth}img{max-width:100%;height:auto}button,a{touch-action
   </nav>
 
   <div class="languages">
-    <a href="index.html" title="Spanish home">ES</a>
-    <span class="active">EN</span>
-    <span>PL</span>
+    <a href="home-es-preview.html" lang="es" aria-label="Ver inicio en español">ES</a>
+    <span class="active" aria-current="page">EN</span>
+    <span class="language-disabled" title="Coming soon" aria-disabled="true">PL</span>
   </div>
 
   <a class="navbtn" href="#universo">ENTER</a>
