@@ -156,6 +156,22 @@ header nav a:hover{
   .mobile-menu-icon{display:flex}
 }
 </style>
+<style>
+/* Sección creadores: añadida sin alterar estilos anteriores */
+.creators{background:#fffaf2;padding:90px 7vw}
+.creators-inner{max-width:1260px;margin:0 auto}
+.creators h2{font-family:Optima,"Optima Nova",Georgia,serif;font-weight:400;font-size:clamp(42px,5vw,68px);line-height:1.1;text-align:center;margin:0 0 22px}
+.creators-intro{max-width:900px;margin:0 auto 55px;text-align:center;font-size:19px}
+.creators-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px}
+.creator-profile{display:grid;grid-template-columns:minmax(140px,.85fr) minmax(0,1fr);gap:24px;align-items:start}
+.creator-photo{aspect-ratio:3/4;border-radius:24px;background:#e8dfd3;overflow:hidden;display:flex;align-items:center;justify-content:center;text-align:center;color:#756d65;font-size:13px;padding:20px}
+.creator-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.creator-profile h3{font-family:Optima,"Optima Nova",Georgia,serif;font-size:clamp(30px,3vw,44px);font-weight:400;line-height:1.08;margin:10px 0 16px}
+.creator-role{color:#c56e55;font-weight:700;font-size:12px;letter-spacing:.045em;text-transform:uppercase}
+.creator-profile p{font-size:15px;line-height:1.65}
+@media(max-width:1100px){.creators-grid{grid-template-columns:1fr;gap:48px}.creator-profile{grid-template-columns:minmax(170px,.65fr) 1fr}}
+@media(max-width:620px){.creators{padding:64px 6vw}.creators-intro{font-size:17px;margin-bottom:36px}.creator-profile{grid-template-columns:1fr;gap:20px}.creator-photo{max-width:330px;width:100%;margin:0 auto}.creator-profile h3{margin-top:0}.creators-grid{gap:44px}}
+</style>
 </head>
 <body>
 {% include header.html %}
@@ -163,6 +179,24 @@ header nav a:hover{
 <section class="hero"><div><div class="eyebrow">SOBRE NOSOTROS</div><h1>Un mundo para todos,<br><span>donde todos somos uno.</span></h1><p class="lead">MONOCUCOS nace de una idea sencilla: ayudar a los niños a descubrirse, comprender a los demás y aprender a vivir juntos.</p><p class="tagline">Creemos que la educación puede ayudarnos a construir una sociedad más humana.</p></div><div class="art art-photo"><img src="assets/img/sobre-nosotros-monocucos.webp" alt="Universo MONOCUCOS"></div></div></section>
 <section class="section white"><div class="eyebrow">QUÉ ES MONOCUCOS</div><h2>Mucho más que personajes.</h2><p class="intro">MONOCUCOS es un universo de personajes, historias y experiencias que acompaña a los niños en el aprendizaje emocional y social. A través de la imaginación, abrimos conversaciones sobre las diferencias, aquello que sentimos y la forma en que podemos relacionarnos con los demás.</p><div class="values"><div class="value"><h3>Inclusión</h3><p>Crear espacios donde todos puedan pertenecer.</p></div><div class="value"><h3>Empatía</h3><p>Comprender lo que sienten y viven los demás.</p></div><div class="value"><h3>Diversidad</h3><p>Aprender a mirar y valorar lo que nos hace diferentes.</p></div><div class="value"><h3>Comunidad</h3><p>Entender que juntos también podemos transformar.</p></div></div></section>
 <section class="section"><div class="manifesto"><div><div class="manifesto-label">MANIFIESTO MONOCUCOS</div><h2>Creemos que la educación debe evolucionar.</h2></div><blockquote>MONOCUCOS no es solamente contenido.<br>No es un texto.<br>No es una ilustración.<br>No es una tendencia.<br>No es un hashtag.<br>No es algo temporal.<br><strong>Es un movimiento.</strong></blockquote></div></section>
+<section class="creators" id="creadores" aria-labelledby="creators-title">
+<div class="creators-inner">
+<h2 id="creators-title">MONOCUCOS</h2>
+<p class="creators-intro">Los MONOCUCOS nacen del encuentro de diferentes culturas, experiencias y formas de comprender el mundo. Su primera creadora, Alejandra Monterrubio, y John Núñez aportan trayectorias artísticas y profesionales marcadas por la multiculturalidad, la comunicación y la creatividad.</p>
+<div class="creators-grid">
+<article class="creator-profile">
+<div class="creator-photo" aria-label="Espacio reservado para la fotografía de Alejandra Monterrubio"><span>Fotografía de Alejandra<br>pendiente</span></div>
+<div><h3>Alejandra Monterrubio</h3><div class="creator-role">Ilustradora, diseñadora gráfica y artista mexicana.</div>
+<p>Su experiencia de vida en Canadá, en una sociedad caracterizada por su diversidad cultural, fue una de las fuentes de inspiración para el nacimiento de MONOCUCOS.</p>
+<p>Su mirada artística y multicultural contribuye a dar forma a un universo visual donde las diferencias, los colores y la imaginación se convierten en un lenguaje para acercar a los niños a la aceptación y la convivencia.</p></div>
+</article>
+<article class="creator-profile">
+<div class="creator-photo" aria-label="Espacio reservado para la fotografía de John Núñez"><span>Fotografía de John<br>pendiente de incorporar al repositorio</span></div>
+<div><h3>John Núñez</h3><div class="creator-role">Escritor y profesional colombiano de la comunicación.</div>
+<p>Su trayectoria se ha desarrollado en agencias de publicidad de América Latina y Europa, trabajando en la creación de contenidos, la dirección creativa y el desarrollo de estrategias de comunicación.</p>
+<p>Su experiencia profesional y su vocación por la escritura aportan a MONOCUCOS una mirada narrativa y cultural orientada a comunicar valores a través de historias que invitan a reflexionar sobre la diversidad, la tolerancia y el respeto.</p></div>
+</article>
+</div></div></section>
 <section class="section white"><div class="behind"><div class="photo">ILUSTRACIÓN / FOTOGRAFÍA MONOCUCOS</div><div><div class="eyebrow">UN PROYECTO QUE CRECE</div><h2>De las historias a las experiencias.</h2><p class="intro">Las historias de MONOCUCOS pueden convertirse en herramientas para conversar, jugar, imaginar y trabajar emociones y valores en diferentes contextos.</p><p>Por eso el proyecto llega a escuelas, familias, comunidades, instituciones y territorios, creando nuevas formas de acompañar a la niñez.</p></div></div></section>
 <section class="closing"><h2>El mundo cambia cuando aprendemos a mirarnos de otra manera.</h2><p>MONOCUCOS quiere formar parte de ese cambio, una historia, una conversación y una experiencia a la vez.</p><a class="button" href="index.html#universo">CONOCE EL UNIVERSO MONOCUCOS</a></section></main>
 <footer><strong>MONOCUCOS™</strong><span>Un mundo para todos, donde todos somos uno.</span><span>© 2026</span>
