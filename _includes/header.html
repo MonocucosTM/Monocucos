@@ -14,7 +14,17 @@
 
   <div class="languages">
     <span class="active">ES</span>
-    <span>EN</span>
+    {% assign english_page = 'home-en-preview.html' %}
+    {% case page.url %}
+      {% when '/historias.html' %}{% assign english_page = 'stories-en-preview.html' %}
+      {% when '/personajes.html' %}{% assign english_page = 'characters-en-preview.html' %}
+      {% when '/aprender.html' %}{% assign english_page = 'learning-en-preview.html' %}
+      {% when '/impacto.html' %}{% assign english_page = 'impact-en-preview.html' %}
+      {% when '/sobre-nosotros.html' %}{% assign english_page = 'about-en-preview.html' %}
+      {% when '/territorios.html' %}{% assign english_page = 'territories-en-preview.html' %}
+      {% when '/contacto.html' %}{% assign english_page = 'contact-en-preview.html' %}
+    {% endcase %}
+    <a href="{{ english_page | relative_url }}" lang="en" aria-label="English" style="color:inherit;text-decoration:none">EN</a>
     <span>PL</span>
   </div>
 
