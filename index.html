@@ -44,6 +44,19 @@ menuIcon.addEventListener('click', function () {
 @media (prefers-reduced-motion: reduce) {
   .stories .cards article:hover { transform: none; }
 }
+
+/* Experimental character artwork response: almost imperceptible on hover. */
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .characters .char-art img {
+    transition: opacity 1050ms ease-out, transform 1050ms cubic-bezier(.2,.7,.2,1), filter 700ms ease;
+    transform-origin: center 60%;
+  }
+  .characters .char-art:hover img.mc-reveal-visible,
+  .characters .char-art:hover img:not(.mc-reveal-ready) {
+    transform: translateY(-3px) rotate(-0.35deg) scale(1.008);
+    filter: drop-shadow(0 9px 11px rgba(45,39,30,.08));
+  }
+}
 </style>
 <script>
 /* Reveal only existing original character artwork; no layout changes. */
