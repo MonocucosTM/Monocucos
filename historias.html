@@ -101,4 +101,26 @@ menuIcon.addEventListener('click', function () {
 });
 </script>
 
+<style id="mc-stories-motion-experiment">
+/* Refine existing card hover: keep artwork, layout and text unchanged. */
+@media (hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference) {
+  .story-grid .story-card {
+    transition: transform 420ms cubic-bezier(.2,.7,.2,1), box-shadow 420ms ease;
+  }
+  .story-grid .story-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 22px 52px rgba(36,35,33,.12);
+  }
+  .story-grid .story-cover img {
+    transition: transform 600ms cubic-bezier(.2,.7,.2,1);
+  }
+  .story-grid .story-card:hover .story-cover img {
+    transform: scale(1.018);
+  }
+}
+@media (prefers-reduced-motion:reduce) {
+  .story-grid .story-card {transition:none}
+  .story-grid .story-card:hover {transform:none}
+}
+</style>
 </body></html>
