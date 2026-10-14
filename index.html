@@ -24,6 +24,26 @@ menuIcon.addEventListener('click', function () {
     transition: opacity 1050ms ease-out, transform 1050ms cubic-bezier(.2,.7,.2,1);
   }
 }
+
+/* Experimental story cards: subtle lift and cover response, no layout changes. */
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .stories .cards article {
+    transition: transform 420ms cubic-bezier(.2,.7,.2,1), box-shadow 420ms ease;
+  }
+  .stories .cards article:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 22px 52px rgba(36,35,33,.12);
+  }
+  .stories .cards article img {
+    transition: transform 600ms cubic-bezier(.2,.7,.2,1);
+  }
+  .stories .cards article:hover img {
+    transform: scale(1.018);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .stories .cards article:hover { transform: none; }
+}
 </style>
 <script>
 /* Reveal only existing original character artwork; no layout changes. */
