@@ -14,4 +14,34 @@ menuIcon.addEventListener('click', function () {
   const isOpen = mobileMenu.style.display === 'flex';
   mobileMenu.style.display = isOpen ? 'none' : 'flex';
 });
-</script></body></html>
+</script>
+<style id="monocucos-motion-prototype">
+/* Experimental HOME only: preserve layout and illustration appearance. */
+@media (prefers-reduced-motion: no-preference) {
+  .mc-reveal-image.mc-reveal-ready { opacity: 0; transform: translateY(18px); }
+  .mc-reveal-image.mc-reveal-ready.mc-reveal-visible {
+    opacity: 1; transform: translateY(0);
+    transition: opacity 850ms ease-out, transform 850ms cubic-bezier(.2,.7,.2,1);
+  }
+}
+</style>
+<script>
+/* Reveal only existing original character artwork; no layout changes. */
+(function () {
+  const images = document.querySelectorAll('.hero-art img, .char-art img');
+  if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add('mc-reveal-visible');
+      observer.unobserve(entry.target);
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -24px 0px' });
+  images.forEach((img) => {
+    if (img.getBoundingClientRect().top < window.innerHeight * 0.8) return;
+    img.classList.add('mc-reveal-image', 'mc-reveal-ready');
+    observer.observe(img);
+  });
+})();
+</script>
+</body></html>
