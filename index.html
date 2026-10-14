@@ -14,4 +14,67 @@ menuIcon.addEventListener('click', function () {
   const isOpen = mobileMenu.style.display === 'flex';
   mobileMenu.style.display = isOpen ? 'none' : 'flex';
 });
-</script></body></html>
+</script>
+<style id="monocucos-motion-prototype">
+/* Experimental HOME only: preserve layout and illustration appearance. */
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .mc-reveal-image.mc-reveal-ready { opacity: 0.25; transform: translateY(7px); }
+  .mc-reveal-image.mc-reveal-ready.mc-reveal-visible {
+    opacity: 1; transform: translateY(0);
+    transition: opacity 1050ms ease-out, transform 1050ms cubic-bezier(.2,.7,.2,1);
+  }
+}
+
+/* Experimental story cards: subtle lift and cover response, no layout changes. */
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .stories .cards article {
+    transition: transform 420ms cubic-bezier(.2,.7,.2,1), box-shadow 420ms ease;
+  }
+  .stories .cards article:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 22px 52px rgba(36,35,33,.12);
+  }
+  .stories .cards article img {
+    transition: transform 600ms cubic-bezier(.2,.7,.2,1);
+  }
+  .stories .cards article:hover img {
+    transform: scale(1.018);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .stories .cards article:hover { transform: none; }
+}
+
+/* Experimental character artwork response: almost imperceptible on hover. */
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .characters .char-art img {
+    transition: opacity 1050ms ease-out, transform 1050ms cubic-bezier(.2,.7,.2,1), filter 700ms ease;
+    transform-origin: center 60%;
+  }
+  .characters .char-art:hover img.mc-reveal-visible,
+  .characters .char-art:hover img:not(.mc-reveal-ready) {
+    transform: translateY(-3px) rotate(-0.35deg) scale(1.008);
+    filter: drop-shadow(0 9px 11px rgba(45,39,30,.08));
+  }
+}
+</style>
+<script>
+/* Reveal only existing original character artwork; no layout changes. */
+(function () {
+  const images = document.querySelectorAll('.hero-art img, .char-art img');
+  if (!('IntersectionObserver' in window) || !window.matchMedia('(hover: hover) and (pointer: fine)').matches || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add('mc-reveal-visible');
+      observer.unobserve(entry.target);
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -24px 0px' });
+  images.forEach((img) => {
+    if (img.getBoundingClientRect().top < window.innerHeight * 0.8) return;
+    img.classList.add('mc-reveal-image', 'mc-reveal-ready');
+    observer.observe(img);
+  });
+})();
+</script>
+</body></html>
