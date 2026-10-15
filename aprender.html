@@ -210,6 +210,13 @@ header nav a:hover{
 .talleres-countries{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
 .talleres-countries span{border:1px solid #a6c5bd;border-radius:999px;padding:12px 22px;font-size:15px;background:rgba(255,255,255,.5)}
 @media(max-width:720px){.talleres-section{padding:64px 7vw}.talleres-visual{grid-template-columns:1fr}.talleres-visual div{min-height:110px}.talleres-section p{font-size:16px}}
+.talleres-fotos{margin-top:38px}
+.talleres-fotos img{display:block;width:100%;border-radius:22px;object-fit:cover}
+.talleres-collage{height:auto;max-height:600px;object-fit:contain!important}
+.talleres-fotos-aula{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-top:20px}
+.talleres-fotos-aula img{aspect-ratio:4/3;object-position:center}
+@media(max-width:720px){.talleres-fotos-aula{grid-template-columns:1fr;gap:16px}.talleres-fotos-aula img{aspect-ratio:auto;height:auto}.talleres-fotos img{border-radius:16px}}
+
 </style>
 </head>
 <body>{% include header.html %}<main><section class="hero"><div><div class="eyebrow">El aprendizaje también puede sentirse</div><h1>APRENDER MONOCUQUEANDO</h1><p>Hay cosas que no se enseñan solamente. Se viven.</p></div><div class="thread" aria-hidden="true"></div></section>
@@ -230,8 +237,12 @@ header nav a:hover{
   <p class="talleres-lead">Hay aprendizajes que cobran un significado especial cuando los compartimos.</p>
   <p>Los encuentros MONOCUCOS acercan a niños y comunidades educativas a experiencias que invitan a reflexionar sobre el respeto, la inclusión, la autenticidad y la convivencia.</p>
   <p>A través del universo de nuestras historias, buscamos que cada niño reconozca el valor de ser diferente, descubra lo que puede aportar a los demás y comprenda que todos tenemos un lugar en la construcción de una comunidad más amable.</p>
-  <div class="talleres-visual" aria-label="Valores que acompañan nuestros encuentros">
-    <div>Imaginar</div><div>Compartir</div><div>Convivir</div>
+  <div class="talleres-fotos" aria-label="Fotografías de encuentros MONOCUCOS">
+    <img class="talleres-collage" src="{{ '/assets/img/monocucos-talleres-collage.png' | relative_url }}" alt="Collage panorámico de una presentación de MONOCUCOS ante un auditorio" loading="lazy">
+    <div class="talleres-fotos-aula">
+      <img src="{{ '/assets/img/monocucos-talleres-aula-1.jpg.JPG' | relative_url }}" alt="Niños participando en una actividad de MONOCUCOS en el aula" loading="lazy">
+      <img src="{{ '/assets/img/monocucos-talleres-aula-2.JPG' | relative_url }}" alt="Encuentro educativo de MONOCUCOS con niños y facilitadora" loading="lazy">
+    </div>
   </div>
 </section>
 <section class="talleres-section talleres-mundo" aria-labelledby="talleres-mundo-title">
