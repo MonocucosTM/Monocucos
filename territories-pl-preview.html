@@ -257,7 +257,12 @@ header nav a:hover{
 .ddc .ddc-docs a{color:#285f66;text-underline-offset:4px}
 .ddc .ddc-docs a:hover{text-decoration-thickness:2px}
 @media(max-width:760px){.ddc{padding:58px 6vw}.ddc .ddc-columns{grid-template-columns:1fr;gap:22px}.ddc .ddc-gallery{grid-template-columns:1fr 1fr}.ddc .ddc-gallery figure{height:170px}.ddc .ddc-section{padding:42px 0}.ddc .ddc-photo{height:260px}}
-</style></head>
+</style><style>
+/* Ajuste exclusivo de la cabecera polaca: dar mayor protagonismo a la ilustración */
+.hero h1{font-size:clamp(44px,5.8vw,78px)}
+@media(max-width:560px){.hero h1{font-size:clamp(39px,10vw,47px)}}
+</style>
+</head>
 <body><header>
   <a class="brand" href="home-pl-preview.html">
     <img src="assets/img/MONOCUCOS-logo-header.png" alt="MONOCUCOS">
